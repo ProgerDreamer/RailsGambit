@@ -34,6 +34,12 @@ gem "sassc-rails"
 gem 'slim-rails'
 gem "jbuilder"
 
+# Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
+gem "jsbundling-rails"
+
+# Bundle and process CSS [https://github.com/rails/cssbundling-rails]
+gem "cssbundling-rails"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -41,6 +47,7 @@ gem 'factory_bot_rails'
 gem 'faker'
 gem 'faker-russian'
 gem 'ffaker'
+gem 'lib'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw] # Call 'byebug' anywhere in the code to stop execution and get a debugger console
